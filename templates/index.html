@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V.E.D.A. — Virtual Educational Dynamic Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.36.1/min/vs/loader.min.js"></script>
+</head>
+
+<body>
+    <div class="app-container">
+        <div class="chat-section">
+            <div class="chat-header">⚛️ V.E.D.A.</div>
+            <div class="chat-history" id="chat-history">
+                <div class="message ai-message">System Online. I am your Multi-Agent Tutor.</div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Ask me anything...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+
+        <div class="lab-section" id="lab-section">
+            <div class="lab-header">
+                <span>LABORATORY</span>
+                <button class="close-lab-btn" onclick="closeLab()">×</button>
+            </div>
+            <div id="visual-lab" class="lab-content" style="display:none;">
+                <div id="visual-container"></div>
+            </div>
+            <div id="code-lab" class="lab-content" style="display:none;">
+                <div id="monaco-container" style="height: 100%; width: 100%;"></div>
+                <button class="run-btn" onclick="runCode()">▶ Run Code</button>
+                <pre id="console-output">Console Ready...</pre>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+
+</html>

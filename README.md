@@ -4,7 +4,6 @@
 
 ![Project Status](https://img.shields.io/badge/Status-Active-success)
 ![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
@@ -134,10 +133,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 *Built by Ayush Panchal*
+

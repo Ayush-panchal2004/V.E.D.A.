@@ -7,6 +7,11 @@
 
 ---
 
+## 🎥 Watch the Demo
+[![Watch V.E.D.A. Demo](https://img.youtube.com/vi/UkARotzRerM/maxresdefault.jpg)](https://www.youtube.com/watch?v=UkARotzRerM)
+
+---
+
 ## 🌟 Key Features
 
 *   **🧠 Multi-Agent Orchestration**: A smart router dynamically assigns your query to the best expert:
@@ -134,4 +139,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ---
 
 *Built by Ayush Panchal*
+
 
